@@ -22,6 +22,7 @@ export class TransactionsListComponent implements OnInit, OnChanges {
   @Input() outputIndex: number;
   @Input() showConfirmations = false;
   @Input() transactionPage = false;
+  @Input() errorUnblinded = false;
 
   @Output() loadMore = new EventEmitter();
 
