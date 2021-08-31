@@ -114,7 +114,7 @@ Edit `mempool-config.json` to add your Bitcoin Core node RPC credentials:
     "HOST": "127.0.0.1",
     "PORT": 3306,
     "USERNAME": "mempool",
-    "PASSWORD": "mempool",
+    "PASSWORD": "71b61986da5b03a5694d7c7d5165ece5",
     "DATABASE": "mempool"
   },
   "STATISTICS": {
@@ -190,3 +190,6 @@ If everything went okay you should see the beautiful mempool :grin:
 
 If you get stuck on "loading blocks", this means the websocket can't connect.
 Check your nginx proxy setup, firewalls, etc. and open an issue if you need help.
+
+# Author: Thong Ngo
+  E-mail: quangthong1011@gmail.com
